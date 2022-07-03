@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+Instructions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Assignment Details:
 
-## Available Scripts
+I could'nt find any other library for excel-like copy paste feature so i had to use ReactJs as there the
+SpreadSheet package was available which exactly have the features of copy paste like excel.
+inside this project some files are Typescript files as the spreadsheet package wasn't working in jsx or js files.
 
-In the project directory, you can run:
+Steps to run this project:
 
-### `npm start`
+Import the database in mysql which is available inside this repository.
+Then create excel_api folder(or directly paste the folder in htdocs folder in xampp server which i uploaded with this project).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+There are two pages in this web app.
+1 - first page is Home page where spreadsheet like feature is displayed in which users can do excel like work and also
+save this work inside their PC. Or they can also Open their excel file in this spreadsheet.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Inside Homepage there is also a Button which is Used to Upload the CSV file.
+  the CSV file must be according to the database table.
 
-### `npm test`
+For this Spreadsheet to work the React package is installed using npm.
+(npm install @syncfusion/ej2-react-spreadsheet --save)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2- Second page is SheetData page on which the CSV file data is displayed
 
-### `npm run build`
+The project is in development mode so Start the project by using this command
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+to use this command you must install nodejs first.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+lastly the signUp feature is working but login feature is not yet added.
