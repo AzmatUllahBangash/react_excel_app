@@ -8,7 +8,7 @@ inside this project some files are Typescript files as the spreadsheet package w
 
 Steps to run this project:
 
-Import the database in mysql which is available inside this repository.
+Import the database(excel_db.sql) in mysql which is available inside this repository.
 Then create excel_api folder(or directly paste the folder in htdocs folder in xampp server which i uploaded with this project).
 
 There are two pages in this web app.
